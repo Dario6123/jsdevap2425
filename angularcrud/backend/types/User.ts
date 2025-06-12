@@ -10,6 +10,7 @@ export interface User extends BasicUser {
     cnp?:string,
     poza?:string,
     dataadaugare?:Date,
+    status?:number,
     actiune?:string
 }
 export interface UserWithDetails extends BasicUser, User{
@@ -17,3 +18,6 @@ export interface UserWithDetails extends BasicUser, User{
     user: User,
 
 }
+
+
+
